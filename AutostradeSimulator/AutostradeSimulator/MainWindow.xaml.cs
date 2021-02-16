@@ -125,7 +125,7 @@ namespace AutostradeSimulator
 
 
 
-                Thread.Sleep(TimeSpan.FromSeconds(r.Next(1,10)));
+                Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(10,1501)));
             }
         }
 
@@ -360,16 +360,16 @@ namespace AutostradeSimulator
                                     break;
                                 case 2:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
                                     carD1.Join();
                                     carD2.Join();
                                     break;
                                 case 3:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -377,11 +377,11 @@ namespace AutostradeSimulator
                                     break;
                                 case 4:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -390,13 +390,13 @@ namespace AutostradeSimulator
                                     break;
                                 case 5:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD5.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -406,15 +406,15 @@ namespace AutostradeSimulator
                                     break;
                                 case 6:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD6.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -425,17 +425,17 @@ namespace AutostradeSimulator
                                     break;
                                 case 7:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD7.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -447,19 +447,19 @@ namespace AutostradeSimulator
                                     break;
                                 case 8:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD7.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD8.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -472,21 +472,21 @@ namespace AutostradeSimulator
                                     break;
                                 case 9:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD7.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD8.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD9.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -500,23 +500,23 @@ namespace AutostradeSimulator
                                     break;
                                 case 10:
                                     carD1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD7.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD8.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD9.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carD10.Start();
                                     carD1.Join();
                                     carD2.Join();
@@ -576,16 +576,16 @@ namespace AutostradeSimulator
                                     break;
                                 case 2:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
                                     carS1.Join();
                                     carS2.Join();
                                     break;
                                 case 3:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -593,11 +593,11 @@ namespace AutostradeSimulator
                                     break;
                                 case 4:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -606,13 +606,13 @@ namespace AutostradeSimulator
                                     break;
                                 case 5:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS5.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -622,15 +622,15 @@ namespace AutostradeSimulator
                                     break;
                                 case 6:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS6.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -641,17 +641,17 @@ namespace AutostradeSimulator
                                     break;
                                 case 7:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS7.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -663,19 +663,19 @@ namespace AutostradeSimulator
                                     break;
                                 case 8:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS7.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS8.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -688,21 +688,21 @@ namespace AutostradeSimulator
                                     break;
                                 case 9:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS7.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS8.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS9.Start();
                                     carS1.Join();
                                     carS2.Join();
@@ -716,23 +716,23 @@ namespace AutostradeSimulator
                                     break;
                                 case 10:
                                     carS1.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS2.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS3.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS4.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS5.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS6.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS7.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS8.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS9.Start();
-                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(1000, 2000)));
+                                    Thread.Sleep(TimeSpan.FromMilliseconds(r.Next(500, 1000)));
                                     carS10.Start();
                                     carS1.Join();
                                     carS2.Join();

@@ -32,6 +32,7 @@
         <Image x:Name="imgDx10" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
         <Label x:Name="lblDx" Content="" HorizontalAlignment="Left" Margin="608,33,0,0" VerticalAlignment="Top" Width="119"/>
         <Label x:Name="lblSx" Content="" HorizontalAlignment="Left" Margin="67,351,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Height="65" Margin="56,19,0,0" TextWrapping="Wrap" Text="Contesto della situazione: Autostrade per L'Italia è sotto inchiesta per abuso edilizio. Il giudice ha quindi deciso di dimezzare la carreggiata. Questa decisione venne presa sotto Natale 2019.  Siamo a Gennaio 2021." VerticalAlignment="Top" Width="373"/>
 
     </Grid>
 </Window>
