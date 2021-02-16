@@ -29,27 +29,6 @@ namespace AutostradeSimulator
 
             NascondiLeMacchine();
 
-            carD1 = new Thread(new ThreadStart(MDx1));
-            carD2 = new Thread(new ThreadStart(MDx2));
-            carD3 = new Thread(new ThreadStart(MDx3));
-            carD4 = new Thread(new ThreadStart(MDx4));
-            carD5 = new Thread(new ThreadStart(MDx5));
-            carD6 = new Thread(new ThreadStart(MDx6));
-            carD7 = new Thread(new ThreadStart(MDx7));
-            carD8 = new Thread(new ThreadStart(MDx8));
-            carD9 = new Thread(new ThreadStart(MDx9));
-            carD10 = new Thread(new ThreadStart(MDx10));
-
-            carS1 = new Thread(new ThreadStart(MSx1));
-            carS2 = new Thread(new ThreadStart(MSx2));
-            carS3 = new Thread(new ThreadStart(MSx3));
-            carS4 = new Thread(new ThreadStart(MSx4));
-            carS5 = new Thread(new ThreadStart(MSx5));
-            carS6 = new Thread(new ThreadStart(MSx6));
-            carS7 = new Thread(new ThreadStart(MSx7));
-            carS8 = new Thread(new ThreadStart(MSx8));
-            carS9 = new Thread(new ThreadStart(MSx9));
-            carS10 = new Thread(new ThreadStart(MSx10));
 
 
 
@@ -361,6 +340,18 @@ namespace AutostradeSimulator
                             {
                                 imgStopSx.Visibility = Visibility.Visible;
                             }));
+
+
+                            carD1 = new Thread(new ThreadStart(MDx1));
+                            carD2 = new Thread(new ThreadStart(MDx2));
+                            carD3 = new Thread(new ThreadStart(MDx3));
+                            carD4 = new Thread(new ThreadStart(MDx4));
+                            carD5 = new Thread(new ThreadStart(MDx5));
+                            carD6 = new Thread(new ThreadStart(MDx6));
+                            carD7 = new Thread(new ThreadStart(MDx7));
+                            carD8 = new Thread(new ThreadStart(MDx8));
+                            carD9 = new Thread(new ThreadStart(MDx9));
+                            carD10 = new Thread(new ThreadStart(MDx10));
                             switch (attesaDx)
                             {
                                 case 1:
@@ -566,6 +557,17 @@ namespace AutostradeSimulator
                             {
                                 imgStopDx.Visibility = Visibility.Visible;
                             }));
+
+                            carS1 = new Thread(new ThreadStart(MSx1));
+                            carS2 = new Thread(new ThreadStart(MSx2));
+                            carS3 = new Thread(new ThreadStart(MSx3));
+                            carS4 = new Thread(new ThreadStart(MSx4));
+                            carS5 = new Thread(new ThreadStart(MSx5));
+                            carS6 = new Thread(new ThreadStart(MSx6));
+                            carS7 = new Thread(new ThreadStart(MSx7));
+                            carS8 = new Thread(new ThreadStart(MSx8));
+                            carS9 = new Thread(new ThreadStart(MSx9));
+                            carS10 = new Thread(new ThreadStart(MSx10));
                             switch (attesaSx)
                             {
                                 case 1:
