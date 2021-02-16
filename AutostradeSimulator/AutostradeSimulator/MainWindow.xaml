@@ -10,8 +10,26 @@
         <Image x:Name="imgSfondo" HorizontalAlignment="Left" Height="399" Margin="43,10,0,0" VerticalAlignment="Top" Width="702" Source="sfondo.png"/>
         <Image x:Name="imgStopSx" HorizontalAlignment="Left" Height="51" Margin="218,221,0,0" VerticalAlignment="Top" Width="53" Source="stop.PNG"/>
         <Image x:Name="imgStopDx" HorizontalAlignment="Left" Height="51" Margin="573,64,0,0" VerticalAlignment="Top" Width="53" Source="stop.PNG"/>
-        <Image x:Name="imgSx" HorizontalAlignment="Left" Height="50" Margin="86,242,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
-        <Image x:Name="imgDx" HorizontalAlignment="Left" Height="50" Margin="627,137,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgSx1" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx2" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx3" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx4" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx5" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx6" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx7" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx8" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx9" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgSx10" HorizontalAlignment="Left" Height="50" Margin="86,240,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgDx1" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx2" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx3" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx4" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx5" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx6" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx7" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx8" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx9" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Image x:Name="imgDx10" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
 
     </Grid>
 </Window>

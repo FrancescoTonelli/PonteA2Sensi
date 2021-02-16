@@ -1,0 +1,15 @@
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\bin\Debug\AutostradeSimulator.exe.config
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\bin\Debug\AutostradeSimulator.exe
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\bin\Debug\AutostradeSimulator.pdb
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.csprojAssemblyReference.cache
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\App.g.cs
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator_MarkupCompile.cache
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator_MarkupCompile.lref
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\MainWindow.baml
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.g.resources
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.Properties.Resources.resources
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.csproj.GenerateResource.cache
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.csproj.CoreCompileInputs.cache
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.exe
+C:\Users\tonbr\Desktop\PonteA2Sensi\AutostradeSimulator\AutostradeSimulator\obj\Debug\AutostradeSimulator.pdb

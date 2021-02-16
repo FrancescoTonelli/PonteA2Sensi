@@ -61,7 +61,58 @@ namespace AutostradeSimulator
             }
         }
 
-        public void MovimentoDx()
+        public void MovimentoDx(Image macchinaDx)
+        {
+            int nuovoMargine = 627;
+            while(nuovoMargine > 86)
+            {
+                Thread.Sleep(TimeSpan.FromMilliseconds(3));
+                nuovoMargine -= 1;
+                this.Dispatcher.BeginInvoke(new Action(() =>
+                {
+
+                    macchinaDx.Margin = new Thickness(nuovoMargine, 136, 0, 0);
+
+                }));
+            }
+        }
+
+        public void MovimentoSx(Image macchinaSx)
+        {
+            int nuovoMargine = 171;
+
+            Thread.Sleep(TimeSpan.FromMilliseconds(3));
+
+            this.Dispatcher.BeginInvoke(new Action(() =>
+            {
+
+                macchinaSx.Margin = new Thickness(171, 136, 0, 0);
+
+            }));
+
+
+            while (nuovoMargine < 475)
+            {
+                Thread.Sleep(TimeSpan.FromMilliseconds(3));
+                nuovoMargine += 1;
+                this.Dispatcher.BeginInvoke(new Action(() =>
+                {
+
+                    macchinaSx.Margin = new Thickness(nuovoMargine, 136, 0, 0);
+
+                }));
+            }
+
+            Thread.Sleep(TimeSpan.FromMilliseconds(3));
+            this.Dispatcher.BeginInvoke(new Action(() =>
+            {
+
+                macchinaSx.Margin = new Thickness(627, 238, 0, 0);
+
+            }));
+        }
+
+        public void GestionePonte()
         {
 
         }
