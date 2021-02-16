@@ -8,6 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image x:Name="imgSfondo" HorizontalAlignment="Left" Height="399" Margin="43,10,0,0" VerticalAlignment="Top" Width="702" Source="sfondo.png"/>
+        <Image x:Name="imgStopSx" HorizontalAlignment="Left" Height="51" Margin="218,221,0,0" VerticalAlignment="Top" Width="53" Source="stop.PNG"/>
+        <Image x:Name="imgStopDx" HorizontalAlignment="Left" Height="51" Margin="573,64,0,0" VerticalAlignment="Top" Width="53" Source="stop.PNG"/>
+        <Image x:Name="imgSx" HorizontalAlignment="Left" Height="50" Margin="86,242,0,0" VerticalAlignment="Top" Width="100" Source="macchinaSx.png"/>
+        <Image x:Name="imgDx" HorizontalAlignment="Left" Height="50" Margin="627,137,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
 
     </Grid>
 </Window>

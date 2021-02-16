@@ -97,5 +97,12 @@
   <ItemGroup>
     <Resource Include="sfondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="stop.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="macchinaDx.png" />
+    <Resource Include="macchinaSx.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

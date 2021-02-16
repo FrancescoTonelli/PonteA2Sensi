@@ -33,6 +33,7 @@ namespace AutostradeSimulator
         bool bloccoDx, bloccoSx;
         object contatoreDx = new object();
         object contatoreSx = new object();
+
         public void ArrivanoLeMacchine()
         {
             int turno;
@@ -58,6 +59,11 @@ namespace AutostradeSimulator
                     }
                 }
             }
+        }
+
+        public void MovimentoDx()
+        {
+
         }
     }
 }
