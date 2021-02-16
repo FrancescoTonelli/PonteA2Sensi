@@ -30,6 +30,7 @@
         <Image x:Name="imgDx8" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
         <Image x:Name="imgDx9" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
         <Image x:Name="imgDx10" HorizontalAlignment="Left" Height="50" Margin="627,136,0,0" VerticalAlignment="Top" Width="100" Source="macchinaDx.png"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="289,50,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>
